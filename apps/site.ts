@@ -17,6 +17,6 @@ export default function Site(
   };
 }
 
-export type Links = ReturnType<typeof Site>;
-export type AppContext = AC<Links>;
+export type Blog = ReturnType<typeof Site>;
+export type AppContext = AC<Blog>;
 export { onBeforeResolveProps } from "apps/website/mod.ts";

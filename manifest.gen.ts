@@ -2,12 +2,24 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $$$$$$0 from "./sections/Links.tsx";
+import * as $0 from "./functions/slugFromUrl.ts";
+import * as $$$0 from "./loaders/blog.ts";
+import * as $$$1 from "./loaders/post.ts";
+import * as $$$$$$0 from "./sections/Post.tsx";
+import * as $$$$$$1 from "./sections/Blog.tsx";
 import * as $$$$$$$$$$$0 from "./apps/site.ts";
 
 const manifest = {
+  "functions": {
+    "deco-sites/mcandeia/functions/slugFromUrl.ts": $0,
+  },
+  "loaders": {
+    "deco-sites/mcandeia/loaders/blog.ts": $$$0,
+    "deco-sites/mcandeia/loaders/post.ts": $$$1,
+  },
   "sections": {
-    "deco-sites/mcandeia/sections/Links.tsx": $$$$$$0,
+    "deco-sites/mcandeia/sections/Blog.tsx": $$$$$$1,
+    "deco-sites/mcandeia/sections/Post.tsx": $$$$$$0,
   },
   "apps": {
     "deco-sites/mcandeia/apps/site.ts": $$$$$$$$$$$0,
